@@ -1,0 +1,26 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      path, polygon { stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+  </defs>
+  
+  <!-- Background circle for better visibility -->
+  <circle cx="16" cy="16" r="15" fill="#2a2a2a"/>
+  
+  <!-- Rotated F+F logo optimized for small size -->
+  <g transform="translate(16, 16) rotate(45) translate(-16, -16) scale(0.16)">
+    <!-- Charcoal Gray F -->
+    <path d="M 42.5 50 L 42.5 150 L 67.5 150 L 67.5 110 L 97.5 102 L 97.5 90 L 67.5 98 L 67.5 65 L 107.5 65 L 107.5 50 L 67.5 50 Z
+            M 67.5 50 L 107.5 50 L 107.5 70 L 67.5 65 Z" 
+          fill="#f5f5f5" stroke="#f5f5f5" stroke-width="1"/>
+    <polygon points="67.5,50 107.5,50 107.5,70 67.5,65" fill="#f5f5f5" stroke="#f5f5f5" stroke-width="1"/>
+    
+    <!-- Orange F -->
+    <g transform="translate(200, 200) rotate(180)">
+      <path d="M 42.5 50 L 42.5 150 L 67.5 150 L 67.5 110 L 97.5 102 L 97.5 90 L 67.5 98 L 67.5 65 L 107.5 65 L 107.5 50 L 67.5 50 Z" 
+            fill="#ff9933" stroke="#ff9933" stroke-width="1"/>
+      <polygon points="67.5,50 107.5,50 107.5,70 67.5,65" fill="#ff9933" stroke="#ff9933" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
