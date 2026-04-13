@@ -32,7 +32,7 @@ const QAPortfolio = () => {
       document.head.appendChild(metaDescription);
     }
     // TODO: replace placeholder meta description
-    metaDescription.content = "[PLACEHOLDER: meta description — 1-2 sentences for search results and link previews]";
+    metaDescription.content = "Heather Frank, Ethical AI Practitioner. Designing AI solutions for people, not just users — built to help, held to a higher standard.";
   }, []);
 
   useEffect(() => {
